@@ -1,11 +1,11 @@
+import { Button } from "@/components/ui/button";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-      <button className="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">
-        Submit
-      </button>
-    </>
+    <div className="flex h-screen flex-col items-center justify-center gap-4">
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Button>Click me</Button>
+    </div>
   );
 }
 
